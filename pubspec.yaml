@@ -1,0 +1,48 @@
+name: universityservices
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #card_swiper: ^3.0.1
+  get: ^4.6.5
+  flutter_otp_text_field: ^1.1.0+2
+  card_swiper: ^3.0.1
+  http: ^1.1.0
+  dio: ^5.4.0
+  open_file: ^3.3.2
+  path_provider: ^2.1.1
+  url_launcher: ^6.2.4
+  file_picker: ^6.1.1
+  dart_openai: ^5.0.0
+  path: ^1.8.3
+  
+
+
+ # permission_handler: ^10.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true 
+  assets:
+    - assets/images/
+  
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
